@@ -1,4 +1,4 @@
-package com.carrentalsystem.user;
+package com.carrentalsystem.entities;
 
 public abstract class User {
 	

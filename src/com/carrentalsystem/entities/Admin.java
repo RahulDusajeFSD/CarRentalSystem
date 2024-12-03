@@ -1,6 +1,4 @@
-package com.carrentalsystem.admin;
-
-import com.carrentalsystem.user.User;
+package com.carrentalsystem.entities;
 
 public class Admin extends User{
 
