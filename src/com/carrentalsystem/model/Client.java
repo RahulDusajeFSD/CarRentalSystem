@@ -1,4 +1,6 @@
-package com.carrentalsystem.entities;
+package com.carrentalsystem.model;
+
+import java.util.Scanner;
 
 public class Client extends User{
 	
@@ -8,7 +10,7 @@ public class Client extends User{
 	
 
 	@Override
-	public void showList() {
+	public void showList(Database database, Scanner s) {
 		
 		System.out.println("\n1. View Cars");
 		System.out.println("\2. Rent Car");

@@ -1,4 +1,7 @@
-package com.carrentalsystem.entities;
+package com.carrentalsystem.model;
+
+import java.util.Scanner;
+
 
 public abstract class User {
 	
@@ -8,10 +11,18 @@ public abstract class User {
 	private String email;
 	private String phoneNumber;
 	private String password;
+	
+	// Type - 0 for Client, 
+	//      - 1 for Admin
+	//      - 2 for DeletedClientAccount
+	//      - 3 for DeletedAdminAccount
 	public int getId() {
 		return Id;
 	}
 
+	public void setId(int Id) {
+		this.Id=  Id;
+	}
 	public String getFirstName() {
 		return firstName;
 	}
@@ -48,6 +59,6 @@ public abstract class User {
 	}
 	
 	
-	public abstract void showList();
+	public abstract void showList(Database database, Scanner s);
 
 }

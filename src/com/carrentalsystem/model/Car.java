@@ -1,4 +1,4 @@
-package com.carrentalsystem.entities;
+package com.carrentalsystem.model;
 
 public class Car {
 

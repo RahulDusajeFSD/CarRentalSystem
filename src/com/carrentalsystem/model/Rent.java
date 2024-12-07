@@ -1,4 +1,4 @@
-package com.carrentalsystem.entities;
+package com.carrentalsystem.model;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
